@@ -1,0 +1,275 @@
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	
+	font-family: 'Balsamiq Sans', cursive;
+	color: white!important;
+}
+
+.nav_style {
+	background-color: #022598!important;
+	padding:25px;
+
+}
+
+.header_style{
+	padding-top: 20px;
+	padding-left: 20px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(135deg, rgba(2, 37, 152, 0.7) 0%, rgba(2, 37, 152, 0.9) 100%) , url("img/overlay-image.jpeg") center no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height:100vh;
+	
+	color: white!important;
+}
+.header_style h1{
+	font-size: 4rem;
+}
+.header_style p{
+	font-size: 1.5rem;
+}
+
+.image_style img{
+
+	
+	float: right;
+
+}
+
+.header_style::before{
+
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height:4rem;
+	background: url(img/wave.png) center no-repeat;
+	background-size: cover;
+
+
+}
+
+.my_btn{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	bottom: 0;
+	background-image: linear-gradient(to right, #1835c7 , #4DFFFF); 
+	border-radius: 30px;
+	margin-bottom: 20px;
+
+}
+
+
+.about_style{
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+
+
+.about_style h1{ 
+	font-size: 4rem;
+}
+
+
+.about_style p{ 
+
+	font-size: 1.5rem;
+}
+
+
+
+.jumbotron-fluid{
+	margin-top: 30px;
+	padding-top: 50px;
+	background:  #fbfafd;
+	text-align: center;
+}
+
+
+.jumbotron-fluid p{ 
+
+	font-size: 1.5rem;
+	color: grey;
+}
+
+.jumbotron-fluid h1{ 
+
+	font-size: 4rem;
+}
+
+
+.feature_style{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+
+
+
+.boxx{
+	border:1px solid white;
+	background-color: white; 
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 4px grey;
+	border-radius: 20px;
+}
+
+
+.ss{
+	background:  #fbfafd;
+	margin-bottom: 20px!important;
+}
+
+.ss h1{
+	font-size: 4rem;
+}
+
+.ss p{
+	font-size: 1.5rem;
+	color: grey;
+
+}
+
+.pricing_sty{
+	background:  #fbfafd;
+}
+
+.pricing_sty h4,h3{
+
+	 color: blue;
+
+}
+
+
+.pricing_sty h1{
+	font-size: 4rem;
+	
+}
+
+.pricing_sty p{
+	font-size: 1.5rem;
+	color: grey;
+}
+
+
+.inner_box{
+	border:1px solid white;
+	background-color: white; 
+	height: 450px;
+	width: 700px;
+	box-shadow: 5px 5px 4px grey;
+	border-radius: 450px 0 0 450px;
+	z-index: 1;
+
+}
+
+
+
+.review_sty{
+
+
+}
+
+.review_sty h1{
+
+font-size: 4rem;
+
+}
+
+
+
+.review_sty p{
+	font-size: 1.5rem;
+	color: grey;
+
+}
+
+.img-circle{
+	border-radius: 300px ;
+}
+
+.card{
+
+border-radius: 30px;
+
+}
+
+
+.download_sty h1{
+
+font-size: 4rem;
+
+}
+
+
+
+.download_sty p{
+	font-size: 1.5rem;
+	color: grey;
+
+}
+
+
+.download_sty {
+
+	margin-top: 20px;
+	padding-top: 40px;
+	background: #fbfafd;
+
+}
+
+.submit_btn{
+	justify-content: center;
+	bottom: 0;
+	background-image: linear-gradient(to right, #1835c7 , #4DFFFF); 
+	border-radius: 30px;
+	margin-bottom: 20px;
+}
+
+
+.address h2{
+	font-size: 2.5rem;	
+
+}
+.address p{
+	font-size: 1rem;
+	padding: 1px;
+}
+
+.form_sty h1{
+	font-size: 4rem;	
+}
+
+
+.form_sty p{
+	font-size: 1.5rem;
+	color: grey;	
+}
+
+
+.form_sty{
+
+	padding-top: 40px;
+	background: #fbfafd;
+}
+
+
+@media screen and (max-width: 1000px) {
+ .image_style{
+ 	display: none;
+ }
+}
+
+
+}
+
